@@ -1,0 +1,32 @@
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.cards {
+  display: grid;
+  gap: 10px;
+}
+
+.card {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  background-color: lightblue;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.hidden {
+  color: rgba(0, 0, 0, 0);
+}
+
+.show {
+  color: black;
+}
+
+.removed {
+  visibility: hidden;
+}
